@@ -5,17 +5,26 @@
 </head>
 <body>
     <div id="argument_container">
-        <p id="p1"></p>
-        <p id="p2"></p>
-        <p id="c"></p>
     </div>
-    <button id="left">True</button>
-    <button id="right">False</button>
+    <div>
+        <button id="left">True</button>
+        <button id="right">False</button>
+        <button id="regenerate">Regenerate</button>
+    </div>
     <br>
-    <button id="regenerate">Regenerate</button>
+    <div>
+        <p id="message_p">Message Here</p>
+        <p id="score">0/0</p>
+        <p id="percentage">0%</p>
+        <button id="reset_button">Reset Score</button>
+    </div>
     <br>
-    <p id="message_p">Message Here</p>
-    <br>
-    <button id="quitButton">Quit Game</button>
+    <div class="options menu">
+        <label>Include Different-Same:</label>    
+        <input type="checkbox" id="include_different_same">
+        <input type="number" id="DSlevel" min="2" value="3">
+    </div>
+
+    <button id="quit_button">Quit Game</button>
 </body>
 </html>
